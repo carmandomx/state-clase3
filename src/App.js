@@ -4,6 +4,7 @@ import './App.css'
 import Counter from './Counter'
 import Bulb from './Bulb'
 import Input from './Input'
+import CalculatorContainer from './CalculatorContainer'
 function App () {
   return (
     <div className='App'>
@@ -15,6 +16,8 @@ function App () {
             Input: <Input />
           </h5>
         </div>
+        <h2>Calculadora Convertidora</h2>
+        <CalculatorContainer />
       </header>
     </div>
   )

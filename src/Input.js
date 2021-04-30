@@ -1,13 +1,15 @@
 import { useState } from 'react'
 
-const Input = () => {
-  const [value, setValue] = useState(0)
-
+// Componente Presentacional
+const Input = ({ value, setValue }) => {
   return (
-    <div>
+    <div
+      style={{
+        paddingBottom: '16px'
+      }}
+    >
       <input
         onChange={evento => {
-          console.log(evento)
           setValue(evento.target.value)
         }}
         type='number'
