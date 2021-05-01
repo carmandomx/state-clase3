@@ -5,11 +5,12 @@ import Counter from './Counter'
 import Bulb from './Bulb'
 import Input from './Input'
 import CalculatorContainer from './CalculatorContainer'
+import CalcContainer from './Calculator/CalcContainer'
 function App () {
   return (
     <div className='App'>
       <header className='App-header'>
-        <Counter initial={0} />
+        {/* <Counter initial={0} />
         <Bulb />
         <div>
           <h5>
@@ -17,7 +18,9 @@ function App () {
           </h5>
         </div>
         <h2>Calculadora Convertidora</h2>
-        <CalculatorContainer />
+        <CalculatorContainer /> */}
+
+        <CalcContainer />
       </header>
     </div>
   )
